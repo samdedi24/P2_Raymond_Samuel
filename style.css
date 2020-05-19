@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 body 
 {
 	display: flex;
@@ -7,11 +22,15 @@ body
 	margin: 150px;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	background-color: beige;
+	font-family: 'ambleregular', Arial, Tahoma, Lucida;
+	font-size: 10pt;
 }
 
 .page
 {
 	display: block;
+	background-color: white;
 }
 
 .corps
@@ -53,15 +72,17 @@ img
 	justify-content: center;
 }
 
+
 h1
 {
 	padding-left: 80px;
+	font-size: 30pt;
 }
 
 header h2
 {
 	padding-left: 80px;
-	color: #FECA07;
+	margin-top: -17px;
 }
 
 .line
@@ -81,10 +102,17 @@ aside h2
 {
 	text-align: center;
 	background-color: #404040;
+	color: #FECA07;
+	padding: 4px;
 }
 
+.about-me
+{
+	padding-top: 40px;
+}
 .contact p
 {
+	padding-top: 10px;
 	padding-left: 40px;
 	padding-right: 20px;
 }
@@ -122,9 +150,16 @@ section
 
 .date
 {
+	display: flex;
 	width: 25%;
 	padding-top: 20px;
 }
+
+.position-date
+{
+	display: flex;
+}
+
 
 .text
 {
@@ -143,6 +178,13 @@ footer
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
+	padding-top: 50px;
+}
+
+.hobbies h2
+{
+	color: #FECA07;
+	padding: 4px;
 }
 
 aside h2, .hobbies h2
@@ -151,6 +193,7 @@ aside h2, .hobbies h2
 	background-color: #404040;
 	
 }
+
 
 #icon
 {
@@ -211,11 +254,13 @@ ul
 .fa-circle
 {
 	color: #FECA07;
+	padding-right: 15px;
 }
 
 .fa-dot-circle
 {
 	color: #FECA07;
+	padding-right: 15px;
 }
 
 
@@ -289,7 +334,7 @@ ul
 }
 
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 780px)
 {	
 	body
 	{
@@ -308,6 +353,11 @@ ul
 		display: flex;
 		width: auto;
 		text-align: center;
+	}
+
+	.text
+	{
+		width: 100%;
 	}
 
 	.corps
