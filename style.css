@@ -1,0 +1,374 @@
+body 
+{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	border: solid 1px black;
+	margin: 150px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.page
+{
+	display: block;
+}
+
+.corps
+{
+	display: flex;
+}
+
+header
+{
+	display: flex;
+}
+
+img
+{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+}
+
+.photo
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	background-color: #FECA07;
+	height: 250px;
+}
+
+.pseudo
+{
+	color: #FECA07;
+}
+.name
+{
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1
+{
+	padding-left: 80px;
+}
+
+header h2
+{
+	padding-left: 80px;
+}
+
+.line
+{
+	border-bottom: solid 2px #FECA07;
+}
+
+aside
+{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	background-color: #FECA07;
+}
+
+aside h2
+{
+	text-align: center;
+	background-color: #404040;
+}
+
+.contact p
+{
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+.about-me p
+{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 30px;
+}
+
+section
+{
+	width: 60%;
+	margin-left: 80px;	
+}
+
+.headlines
+{
+	display: flex;
+	align-items: center;
+	border-bottom: solid 2px #FECA07;
+}
+
+.sec-one
+{
+	display: flex;
+}
+
+.headlines i
+{
+	margin-right: 30px;
+	font-size: 28px;
+}
+
+.date
+{
+	width: 25%;
+	padding-top: 20px;
+}
+
+.text
+{
+	width: 75%;
+}
+
+footer
+{
+	display: flex;
+}
+
+.hobbies
+{
+	width: 30%;
+	background-color: #FECA07;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+aside h2, .hobbies h2
+{
+	text-align: center;
+	background-color: #404040;
+	
+}
+
+#icon
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#icon i 
+{
+	border: solid 1px #404040;
+	border-radius: 50%;
+	font-size: xx-large;
+	padding: 10px;
+}
+
+
+.recommendation
+{
+	width: 65%;
+}
+
+.frame
+{
+	margin-left: 80px;
+}
+
+.foot-right
+{
+	display: flex;
+}
+
+.recommendation ul
+{
+	width: 50%;
+}
+
+ul
+{
+	list-style: none;
+}
+
+.fa-user-graduate
+{
+	color: #FECA07;
+}
+
+.fa-briefcase
+{
+	color: #FECA07;
+}
+
+.fa-pencil-alt
+{
+	color: #FECA07;
+}
+
+.fa-circle
+{
+	color: #FECA07;
+}
+
+.fa-dot-circle
+{
+	color: #FECA07;
+}
+
+
+
+@media all and (max-width: 1280px)
+{
+	body
+	{
+		margin: auto;
+	}
+
+	header
+	{
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.photo
+	{
+		display: flex;
+		width: auto;
+		text-align: center;
+	}
+
+	.corps
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	aside
+	{
+		display: flex;
+		width: auto;
+	}
+
+	section
+	{
+		display: flex;
+		width: auto;
+	}
+	.sec-one
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.hobbies
+	{
+		width: auto;
+		padding-bottom: 5px;
+	}
+
+	.recommendation
+	{
+		width: auto;
+	}
+
+	.section
+	{
+		width: auto;
+	}
+
+}
+
+
+@media screen and (max-width: 600px)
+{	
+	body
+	{
+		margin: auto;
+	}
+
+	header
+	{
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.photo
+	{
+		display: flex;
+		width: auto;
+		text-align: center;
+	}
+
+	.corps
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	aside
+	{
+		display: flex;
+		width: auto;
+	}
+
+	section
+	{
+		display: flex;
+		width: auto;
+		margin-right: 5%;
+	}
+	.sec-one
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.hobbies
+	{
+		width: auto;
+		padding-bottom: 5px;
+	}
+
+	.recommendation
+	{
+		width: auto;
+		flex-direction: column;
+		margin-right: 5%;
+	}
+	.recommendation ul
+	{
+		width: auto;
+	}
+
+	.foot-right
+	{
+		flex-direction: column;
+	}
+	.section
+	{
+		width: auto;
+	}
+{
+
+
+
+
+
+
+
