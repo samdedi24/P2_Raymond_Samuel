@@ -21,7 +21,7 @@ body
 	border: solid 1px black;
 	margin: 150px;
 	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 	background-color: beige;
 	font-family: 'ambleregular', Arial, Tahoma, Lucida;
 	font-size: 10pt;
@@ -179,6 +179,7 @@ footer
 	flex-direction: column;
 	justify-content: space-evenly;
 	padding-top: 50px;
+	padding-bottom: 25px;
 }
 
 .hobbies h2
